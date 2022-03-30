@@ -28,7 +28,9 @@ class Fun(commands.Cog):
             
             
         embed = discord.Embed(title='list Endpoind', color=discord.Color.purple())
-        embed = discord.Embed(name='Syntax', value='write endpoints in lowercase and replace spaces with **_**')
+        embed.set_author(name="$img row")
+
+        embed = discor.add_add_field(name='Syntax', value='write endpoints in lowercase and replace spaces with **_**')
 
         for k in endpo.keys():
             v = ''
